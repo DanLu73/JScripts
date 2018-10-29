@@ -6,16 +6,19 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <img src="images/alps.jpg" width="10" height="10">
   <title> Welcome! </title>
-<script>src="scripts/clock.js"</script>
+  <script>
+    src = "scripts/clock.js"
+  </script>
 </head>
 
 <body>
-  <p>This is the Body</p>
+  <p><h1>Here start the Body</h1></p>
   <h1> This is my first HTML code</h1>
-<script>let d = new Date();
-    document.body.innerHTML = "<h1>Time right now is:  " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds()
-    "</h1>"</script>
-    <p>And this is the end of the body</p>
+  <script>
+    var time = new Date();
+    console.log(time.getHours() + ":" + time.getMinutes() + ":" + time.getSeconds());
+  </script>
+  <p>And this is the end of the body</p>
 </body>
 
 </html>
