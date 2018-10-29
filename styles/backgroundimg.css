@@ -1,5 +1,6 @@
 body {
-background-image: url("images/white.jpeg");
+background-image: url("images/white.jpeg") repeat 0 0;
+min-height: 100%;
 }
 h1 {
 color: black;
